@@ -1,3 +1,4 @@
+import { DefaultModule } from './core/layout/default/default.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
@@ -15,7 +16,8 @@ import { LayoutModule } from '@angular/cdk/layout';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    LayoutModule
+    LayoutModule,
+    DefaultModule
   ],
   providers: [],
   bootstrap: [AppComponent]

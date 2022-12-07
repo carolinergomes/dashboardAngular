@@ -1,22 +1,18 @@
-import { SidebarComponent } from './../sidebar/sidebar.component';
-import { FooterComponent } from './../footer/footer.component';
-import { HeaderComponent } from './../header/header.component';
+import { ComponentsModule } from './../../components/components.module';
+import { MaterialModule } from './../../../material/material/material.module';
 import { DefaultComponent } from './default.component';
 
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-
-
 @NgModule({
   declarations: [
-    DefaultComponent,
-    HeaderComponent,
-    FooterComponent,
-    SidebarComponent
+    DefaultComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MaterialModule,
+    ComponentsModule
   ]
 })
 export class DefaultModule { }
