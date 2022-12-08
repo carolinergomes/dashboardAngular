@@ -3,9 +3,11 @@
 }
 
 .container-dashboard {
+  align-items:center;
+  justify-content: space-around;
   width: 100%;
   gap: 2px;
   display: flex;
   flex-wrap: wrap;
-  background-color: rgb(242, 181, 216);
+  background-color: fff;
 }

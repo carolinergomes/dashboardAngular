@@ -1,5 +1,10 @@
-.img0 {
-  width: 300px;
-  border-radius: 15px;
+:host {
   margin-top: 10px;
+}
+.img0 {
+  background-color: antiquewhite;
+  margin-left: auto;
+  width: 150px;
+  border-radius: 15px;
+
 }

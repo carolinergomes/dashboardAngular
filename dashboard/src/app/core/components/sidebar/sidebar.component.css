@@ -1,9 +1,14 @@
+h2 {
+  margin: auto;
+}
 :host {
-  height: 100vh;
+  height: 100%;
   width: 20%;
 }
 .foto-sidebar {
-  width: 75%;
+  margin: auto;
+  width: 50%;
+  border-radius: 50%;
 }
 .container-sidebar {
   height: 100vh;
