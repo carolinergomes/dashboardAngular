@@ -1,0 +1,9 @@
+:host {
+  width: 60%;
+}
+
+.container-dashboard {
+  margin-top: 8.5%;
+  display: flex;
+  background-color: rgb(242, 181, 216);
+}

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { FooterComponent } from './footer.component';
+import { Imagem5Component } from './imagem5.component';
 
-describe('FooterComponent', () => {
-  let component: FooterComponent;
-  let fixture: ComponentFixture<FooterComponent>;
+describe('Imagem5Component', () => {
+  let component: Imagem5Component;
+  let fixture: ComponentFixture<Imagem5Component>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ FooterComponent ]
+      declarations: [ Imagem5Component ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(FooterComponent);
+    fixture = TestBed.createComponent(Imagem5Component);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
