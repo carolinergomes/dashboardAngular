@@ -7,7 +7,9 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import {MatCardModule} from '@angular/material/card';
-
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [],
@@ -18,7 +20,10 @@ import {MatCardModule} from '@angular/material/card';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule,
+    MatFormFieldModule,
+    ReactiveFormsModule
   ],
   exports: [
     CommonModule,
@@ -27,7 +32,10 @@ import {MatCardModule} from '@angular/material/card';
     MatSidenavModule,
     MatIconModule,
     MatListModule,
-    MatCardModule
+    MatCardModule,
+    MatGridListModule,
+    MatFormFieldModule,
+    ReactiveFormsModule
   ]
 
 })

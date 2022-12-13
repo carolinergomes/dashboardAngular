@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { Imagem4Component } from './imagem4.component';
+import { PageCadastroComponent } from './page-cadastro.component';
 
-describe('Imagem4Component', () => {
-  let component: Imagem4Component;
-  let fixture: ComponentFixture<Imagem4Component>;
+describe('PageCadastroComponent', () => {
+  let component: PageCadastroComponent;
+  let fixture: ComponentFixture<PageCadastroComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ Imagem4Component ]
+      declarations: [ PageCadastroComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(Imagem4Component);
+    fixture = TestBed.createComponent(PageCadastroComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

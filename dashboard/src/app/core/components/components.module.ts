@@ -6,32 +6,27 @@ import { SidebarComponent } from './sidebar/sidebar.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { CardGraphComponent } from './card-graph/card-graph.component';
-import { CardGraph2Component } from './card-graph2/card-graph2.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { Imagem0Component } from './imagem0/imagem0.component';
-import { Imagem1Component } from './imagem1/imagem1.component';
-import { Imagem2Component } from './imagem2/imagem2.component';
-import { Imagem3Component } from './imagem3/imagem3.component';
-import { Imagem4Component } from './imagem4/imagem4.component';
-import { Imagem5Component } from './imagem5/imagem5.component';
+import { CardsIntroComponent } from './dashboard/cards-intro/cards-intro.component';
+import { TextComponent } from './text/text.component';
+import { ItemsComponent } from './items/items.component';
+import { ButtonComponent } from './button/button.component';
+import { PageCadastroComponent } from './page-cadastro/page-cadastro.component';
+
 
 const COMPONENTS = [
   SidebarComponent,
-  CardGraphComponent,
-  CardGraph2Component,
   DashboardComponent,
-  Imagem0Component,
-  Imagem1Component,
-  Imagem2Component,
-  Imagem3Component,
-  Imagem4Component,
-  Imagem5Component
+  CardsIntroComponent,
+  TextComponent,
+  ItemsComponent,
+  ButtonComponent
 ]
 
 @NgModule({
   declarations: [
-  COMPONENTS
+  COMPONENTS,
+  PageCadastroComponent
   ],
   imports: [
     CommonModule,
